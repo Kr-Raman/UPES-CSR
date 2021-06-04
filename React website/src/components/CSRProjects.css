@@ -1,0 +1,28 @@
+.blog_list_page {
+    min-height: max-content;
+    padding: 8rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_list_header{
+    color: #333333;
+    font-size: 2.5rem;
+    font-family: gilroy-extra-bold;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1024px) {
+    .blog_list_page{
+        padding: 4rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .blog_list_header{
+        font-size: 1.8rem;
+    }
+}
