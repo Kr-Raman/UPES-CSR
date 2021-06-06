@@ -32,7 +32,7 @@ const blogData = [
             <li>Oranges - Vitamin C, found mainly in fresh fruits like oranges, contributes to healthy blood vessels in your eyes. It combats cataracts development, and in combination with other nutrients and vitamins, age-related macular degeneration.</li>
         </ol>
         <p>There's a possibility that eye exercises and diet won’t benefit you. But it won't hurt to try, right? It’s also advised to get your eyes checked regularly by an eye doctor. They can often detect and treat problems before noticeable symptoms occur. Book an appointment with 9eye now and experience the best in class ophthalmic services.</p>`,
-        blogLink: "/blog/blogid=0002",
+        blogLink: "/Projects",
         buttonText: "Read full Project",
         blogImg: img1
     }, {

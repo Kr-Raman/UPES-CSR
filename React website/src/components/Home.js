@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from "./Navbar"
-import HomeHeader from "./HomeHeader"
+import LandingSearch from './LandingSearch.js';
 import ComparePage from './LandingCompare.js'
 import CSRProjects from "./CSRProjects"
 import Footer from "./footer"
@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div>
                 <Navbar/>
-                <HomeHeader/>
+                <LandingSearch />
                 <ComparePage/>
                 <CSRProjects/>
                 <Footer/>
