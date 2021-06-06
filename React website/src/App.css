@@ -1,148 +1,146 @@
-@font-face{
-	src: url('./components/assets/fonts/Gilroy-ExtraBold.ttf');
-	font-family: gilroy-extra-bold;
+@font-face {
+  src: url("./components/assets/fonts/Gilroy-ExtraBold.ttf");
+  font-family: gilroy-extra-bold;
 }
 
-@font-face{
-	src: url('./components/assets/fonts/Gilroy-Bold.ttf');
-	font-family: gilroy-bold;
+@font-face {
+  src: url("./components/assets/fonts/Gilroy-Bold.ttf");
+  font-family: gilroy-bold;
 }
 
-@font-face{
-	src: url('./components/assets/fonts/Gilroy-RegularItalic.ttf');
-	font-family: gilroy-regular-italic;
+@font-face {
+  src: url("./components/assets/fonts/Gilroy-RegularItalic.ttf");
+  font-family: gilroy-regular-italic;
 }
 
-.App{
-	 background-color: #F8F8F8;
-	 min-height: 100vh;
-	 display: flex;
-	 flex-direction: column;
+.App {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-*{
-	outline: none !important;
+* {
+  outline: none !important;
 }
 
-input:focus{
-	outline: none !important;
+input:focus {
+  outline: none !important;
 }
 
-textarea:focus{
-	outline: none !important;
+textarea:focus {
+  outline: none !important;
 }
 
-button:focus{
-	outline: none !important;
+button:focus {
+  outline: none !important;
 }
 
-html{
-	font-size: 16px;
-  }
-  body{
-	background-color: rgb(248,248,248);
-	
-  }
-  
-  .container{
-	display: grid;
-	grid-template-columns: 0.2fr 4fr;
-	margin: 100px 20px;
-  }
-  
-  .mainsection{
-	width: 100%;
-	padding: 0px 0px 0 20px;
-  }
-  
-  .mainsection h1{
-	padding-left: 30px;
-	padding-bottom: 30px;
-	border-bottom:1px solid ;
-	font-family: gilroy-extra-bold;
-  }
-  .mainsection table{
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-left: 20px;
-	width: 100%;
-	font-size: 1.2rem;
-  }
-  
-  .box{
-	border: 1px solid;
-	padding: 5px 20px;
-	border-radius: 10px;
-	background-color: white;
-	margin: 0 10px;
-  }
-  
-  .cash{
-	margin: 20px 0;
-  }
-  
-  .sidesection{
-	height: 80vh;
-	border-right: 1px solid;
-	font-size: 1.4rem;
-	width:250px ;
-  }
-  p{
-	padding-left: 30px;
-  }
-  
-  li{
-	list-style:none;
-  }
-  
-  table{
-	padding-top: 20px;
-	padding-right: 20px;
-	width: 100%;
-	font-size: 1.2rem;
-  }
-  
-  .icon{
-	float: left;
-  }
-  icon:focus {
-	color: rgb(119,21,114);
-  }
-  
-  table strong{
-	margin-left: 10px;
-	display: inline-block;
-	font-weight: bold;
-	height: 1px;
-	min-width: 200px;
-	font-family: gilroy-extra-bold;
-  }
-  
-  li a{
-	color: black;
-	font-family: gilroy-regular-italic;
-  }
-  a:hover {
-	color: rgb(119, 14, 114);
-  }
-  .button{
-	background: linear-gradient(90deg,#C271BD,#8A3585);
-	float: right;
-	font-size: 1rem;
-	font-weight: 700;
-	padding:10px 40px;
-	width : 200px;
-	cursor: pointer;
-	text-align: center;
-	color: #f8f8f8;
-	border: none;
-	border-radius: 2rem;
-	padding: 1rem 2rem;
-	font-family: gilroy-extra-bold;
-	
-  }
-  
-  .button:hover{
-	background: linear-gradient(90deg, #C271BDe9, #8A3585e9);
-	box-shadow: 3px 3px 20px rgba(0,0,0,0.16);
-  }
+html {
+  font-size: 16px;
+}
+body {
+  background-color: rgb(248, 248, 248);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.2fr 4fr;
+  margin: 100px 20px;
+}
+
+.mainsection {
+  width: 100%;
+  padding: 0px 0px 0 20px;
+}
+
+.mainsection h1 {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid;
+  font-family: gilroy-extra-bold;
+}
+.mainsection table {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.box {
+  border: 1px solid;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.cash {
+  margin: 20px 0;
+}
+
+.sidesection {
+  height: 80vh;
+  border-right: 1px solid;
+  font-size: 1.4rem;
+  width: 250px;
+}
+p {
+  padding-left: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  padding-top: 20px;
+  padding-right: 20px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.icon {
+  float: left;
+}
+icon:focus {
+  color: #95afc0;
+}
+
+table strong {
+  margin-left: 10px;
+  display: inline-block;
+  font-weight: bold;
+  height: 1px;
+  min-width: 200px;
+  font-family: gilroy-extra-bold;
+}
+
+li a {
+  color: black;
+  font-family: gilroy-regular-italic;
+}
+a:hover {
+  color: #95afc0;
+}
+.button {
+  background: linear-gradient(90deg, #c7ecee, #95afc0);
+  float: right;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 40px;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  font-family: gilroy-extra-bold;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #c7ecee, #95afc0);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.16);
+}

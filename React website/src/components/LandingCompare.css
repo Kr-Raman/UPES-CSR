@@ -4,7 +4,7 @@
 	top: -5vh;
 	width: 100%;
 	height: 85vh;
-	background-color: #EFE0EE;
+	background-color: #c7ecee;
 	display: flex;
 	align-items: center;
 	border-bottom-left-radius: 50px;
@@ -56,7 +56,7 @@
 }
 
 #nine-eye{
-	color: #8A3585;
+	color: #227ff4;
 }
 
 @media (max-width: 1440px) {
